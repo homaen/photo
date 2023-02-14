@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +26,7 @@
 
             .container {
                 width: 390px;
+                margin-bottom: 50px;
                 background-color: #ff9d73;
                 height: 100%;
             }
@@ -35,7 +37,7 @@
             }
 
             .photo-frame {
-                background-color: white;
+                background-color: #ff9d73;
                 margin: 15px 20px;
                 height: 390px;
 
@@ -62,6 +64,10 @@
                 color: white;
                 font-size: 15px;
                 font-weight: 500;
+            }
+
+            #image0 {
+                background-image: url('./image0.gif');
             }
 
             #image1 {
@@ -166,6 +172,17 @@
                 </span>
             </div>
             <div 
+                id="image0" 
+                class="photo-frame"
+                onmouseover="hideText(0)"
+                onmouseout="showText(0)"
+                onclick="alertText(0)"
+                >
+                <span id="desc0" class="photo-description">
+                
+                </span>
+            </div>
+            <div 
                 id="image2" 
                 class="photo-frame"
                 onmouseover="hideText(2)"
@@ -174,6 +191,17 @@
                 >
                 <span id="desc2" class="photo-description">
                     신나는 금문해변
+                </span>
+            </div>
+            <div 
+                id="image0" 
+                class="photo-frame"
+                onmouseover="hideText(0)"
+                onmouseout="showText(0)"
+                onclick="alertText(0)"
+                >
+                <span id="desc0" class="photo-description">
+                
                 </span>
             </div>
             <div 
@@ -187,7 +215,18 @@
                     할아버지 생일 케이크..
                 </span>
             </div>
-                <div 
+            <div 
+                id="image0" 
+                class="photo-frame"
+                onmouseover="hideText(0)"
+                onmouseout="showText(0)"
+                onclick="alertText(0)"
+                >
+                <span id="desc0" class="photo-description">
+                
+                </span>
+            </div>
+            <div 
                 id="image4" 
                 class="photo-frame"
                 onmouseover="hideText(4)"
@@ -203,8 +242,8 @@
 
         </div>
         <div class="footer">
-            <p class="f-title">Happy Birthday!</p>
-            <p class="f-date">2023.02.12</p>
+            <p class="f-title">Happy lunch time</p>
+            <p class="f-date">2023.01.25</p>
         </div>
     </div>
 </body>
